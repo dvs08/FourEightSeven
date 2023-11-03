@@ -1,37 +1,70 @@
-# FourEightSeven
-## FourEightSeven Assignment - DTU
+# Getting Started with Create React App
 
-## Assignment Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In this assignment, your task is to replicate a product page from Decem Drinks using HTML, CSS, and JavaScript. You will not be required to copy the entire page, but you must cover specific elements of the page as outlined below. It is important to note that the layout does not need to be pixel-perfect, but you should aim to replicate the key features accurately.
+## Available Scripts
 
-### Key Elements to Replicate
+In the project directory, you can run:
 
-1. **Header and Dropdown + Announcement Bar:**
-   - Replicate the header section, including the navigation menu, logo, and the dropdown menu that appears when you click on the "+" symbol.
-   - Implement the announcement bar if available.
+### `npm start`
 
-2. **Cart Drawer:**
-   - Create a cart drawer on the right-hand side, which appears when an item is added to the cart.
-   - Ensure that users can interact with the cart, adding and removing items as needed.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-3. **Accordion Items:**
-   - Implement accordion-style sections for Description, Taste, and Serve.
-   - Users should be able to expand and collapse these sections as required.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-4. **Inspect Element and Layout:**
-   - Use the browser's Inspect Element feature to understand the layout and structure of the original page.
-   - While pixel-perfect replication is not required, try to replicate the general layout and structure of the original page as closely as possible.
+### `npm test`
 
-5. **Carousel:**
-   - Implement a carousel that allows users to navigate through product images.
-   - Ensure that the carousel functions as expected, allowing users to move between images smoothly.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Additional Notes
+### `npm run build`
 
-1. Making the page responsive is optional but preferred. You are encouraged to consider various screen sizes and adapt the layout as needed.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Use Tailwind CSS: Preferably, use Tailwind CSS for styling, as all website builds at our organization use Tailwind.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. Original Website Animations: Ensure that you replicate all the original website's animations to the best of your ability.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
